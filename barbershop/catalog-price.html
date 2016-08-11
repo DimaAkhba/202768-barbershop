@@ -1,65 +1,66 @@
-  <!DOCTYPE html>
-  <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Барбершоп «Бородинский»</title>
-  </head>
-  <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="main-header-content">
-          <div class="logo-header">
-            <img src="http://placehold.it/150x100" height="#" width="#" alt="#">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Барбершоп «Бородинский»</title>
+</head>
+<body>
+  <header class="main-header">
+    <div class="container">
+      <div class="main-header-content header-content">
+        <div class="header-content-logo">
+          <img src="http://placehold.it/150x100" height="#" width="#" alt="#">
+        </div>
+        <nav class="header-content-navigation">
+          <ul>
+            <li>
+              <a class="btn-navigation" href="#">информация</a>
+            </li>
+            <li>
+              <a class="btn-navigation" href="#">новости</a>
+            </li>
+            <li>
+              <a class="btn-navigation" href="#">прайс-лист</a>
+            </li>
+            <li>
+              <a class="btn-navigation" href="#">магазин</a>
+            </li>
+            <li>
+              <a class="btn-navigation" href="#">контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-content user-block">
+          <div class="user-block-enter">
+            <a class="btn-enter" href="#">вход</a>
           </div>
-          <nav class="main-navigation">
-            <ul>
-              <li>
-                <a class="btn-main-navigation" href="#">информация</a>
-              </li>
-              <li>
-                <a class="btn-main-navigation" href="#">новости</a>
-              </li>
-              <li>
-                <a class="btn-main-navigation" href="#">прайс-лист</a>
-              </li>
-              <li>
-                <a class="btn-main-navigation" href="#">магазин</a>
-              </li>
-              <li>
-                <a class="btn-main-navigation" href="#">контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="user-block">
-            <div class="button-enter">
-              <a class="btn-enter" href="#">вход</a>
-            </div>
-            <div class="button-exit hidden">
-              <a class="btn-exit" href="#">выход</a><!--возможно вставить нужно не ссылку,так как пользователь никуда не переходит,меняется лишь визуализация-->
-            </div>
-            <div class="button-profile hidden">
-              <a class="btn-profile" href="#">имя пользователя</a><!--думаю это ссылка,нажав на которую переходишь к настройкам своего профиля-->
-            </div>
+          <div class="user-block-exit hidden">
+            <a class="btn-exit" href="#">выход</a><!--возможно вставить нужно не ссылку,так как пользователь никуда не переходит,меняется лишь визуализация-->
+          </div>
+          <div class="user-block-profile hidden">
+            <a class="btn-profile" href="#">имя пользователя</a><!--думаю это ссылка,нажав на которую переходишь к настройкам своего профиля-->
           </div>
         </div>
       </div>
-    </header>
-    <main class="main-content">
-      <div class="container">
-        <div class="main-content-breadcrumbs">
-          <b>прайс-лист</b>
-          <ul>
-            <li>
-              <a class="btn-breadcrumbs" href="#">главная</a>
-            </li>
-            <li>
-              <a class="btn-breadcrumbs">прайс-лист</a>
-            </li>
-          </ul>
-        </div>
-        <div class="main-content-item">
-          <span>истинно мужская классика</span>
-        </div>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="container">
+      <div class="breadcrumbs">
+        <b>прайс-лист</b>
+        <ul>
+          <li>
+            <a class="btn-breadcrumbs" href="#">главная</a>
+          </li>
+          <li>
+            <a class="btn-breadcrumbs">прайс-лист</a>
+          </li>
+        </ul>
+      </div>
+      <header class="main-content-slogan">
+        <span>истинно мужская классика</span>
+      </header>
+      <div class="layout-column-left">
         <div class="main-content-brands">
           <h2>мы используем только лучшие средства:</h2>
           <ul>
@@ -69,6 +70,8 @@
             <li>malin+goets</li>
           </ul>
         </div>
+      </div>
+      <div class="layout-column-right">
         <div class="main-content-price">
           <h2>цены на услуги наших мастеров:</h2>
           <table class="main-content-price-list">
@@ -86,43 +89,50 @@
             </tr>
           </table>
         </div>
+      </div>
+      <div class="layout-column-left">
         <div class="main-content-desc">
-          <h2 class="main-content-desc-title">несколько слов о нас:</h2>
-          <p class="main-content-desc-left">наша парикмахерская занимается исключительно мужскими стрижками.стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.мы не работаем на количество,мы делаем качество.</p>
-          <p class="main-content-desc-right">наша мастерская расположена в центре города,поэтому сделать стильную стрижку можно в любое время,даже в обеденный перерыв.здесь вы можете погрузиться в удобную для вас атмосферу,чувствовать себя комфортно и свободно!</p>
+          <h2>несколько слов о нас:</h2>
+          <p>наша парикмахерская занимается исключительно мужскими стрижками.стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.мы не работаем на количество,мы делаем качество.</p>
         </div>
       </div>
-    </main>
-    <footer class="main-footer">
-      <div class="conteiner">
-        <div class="main-footer-contacts">
-          Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
-        </div>
-        <div class="main-footer-social">
-          <p>Давайте дружить!</p>
-          <ul>
-            <li>
-              <a class="btn-social btn-social-vk" href="#">Вконтакте</a>
-            </li>
-            <li>
-              <a class="btn-social btn-social-fb" href="#">Фейсбук</a>
-            </li>
-            <li>
-              <a class="btn-social btn-social-inst" href="#">Инстаграм</a>
-            </li>
-            <li>
-              <a class="btn-social btn-social-#" href="#"></a>
-            </li>
-          </ul>
-        </div>
-        <div class="main-footer-copyright">
-          <p>Разработано:</p>
-          <a class="btn-created-by" href="#">HTMLACADEMY.RU</a>
+      <div class="layout-column-right">
+        <div class="main-content-desc">
+          <p>наша мастерская расположена в центре города,поэтому сделать стильную стрижку можно в любое время,даже в обеденный перерыв.здесь вы можете погрузиться в удобную для вас атмосферу,чувствовать себя комфортно и свободно!</p>
         </div>
       </div>
-    </footer>
-  </body>
-  </html>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="main-footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </div>
+      <div class="main-footer-social">
+        <p>Давайте дружить!</p>
+        <ul>
+          <li>
+            <a class="btn-social btn-social-vk" href="#">Вконтакте</a>
+          </li>
+          <li>
+            <a class="btn-social btn-social-fb" href="#">Фейсбук</a>
+          </li>
+          <li>
+            <a class="btn-social btn-social-inst" href="#">Инстаграм</a>
+          </li>
+          <li>
+            <a class="btn-social btn-social-# hidden" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer-copyright">
+        <p>Разработано:</p>
+        <a class="btn btn-copyright" href="#">HTMLACADEMY.RU</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
