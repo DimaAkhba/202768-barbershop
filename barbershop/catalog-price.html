@@ -7,39 +7,37 @@
 <body>
   <header class="main-header">
     <div class="container">
-      <div class="main-header-content header-content">
-        <div class="header-content-logo">
-          <img src="http://placehold.it/150x100" height="#" width="#" alt="#">
+      <div class="logo">
+        <img src="http://placehold.it/150x100" height="#" width="#" alt="логотип Barbershop">
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a class="navigation-link" href="#">информация</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="#">новости</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="#">прайс-лист</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="#">магазин</a>
+          </li>
+          <li>
+            <a class="navigation-link" href="#">контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <div class="user-block-enter">
+          <a class="enter-link" href="#">вход</a>
         </div>
-        <nav class="header-content-navigation">
-          <ul>
-            <li>
-              <a class="btn-navigation" href="#">информация</a>
-            </li>
-            <li>
-              <a class="btn-navigation" href="#">новости</a>
-            </li>
-            <li>
-              <a class="btn-navigation" href="#">прайс-лист</a>
-            </li>
-            <li>
-              <a class="btn-navigation" href="#">магазин</a>
-            </li>
-            <li>
-              <a class="btn-navigation" href="#">контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-content user-block">
-          <div class="user-block-enter">
-            <a class="btn-enter" href="#">вход</a>
-          </div>
-          <div class="user-block-exit hidden">
-            <a class="btn-exit" href="#">выход</a><!--возможно вставить нужно не ссылку,так как пользователь никуда не переходит,меняется лишь визуализация-->
-          </div>
-          <div class="user-block-profile hidden">
-            <a class="btn-profile" href="#">имя пользователя</a><!--думаю это ссылка,нажав на которую переходишь к настройкам своего профиля-->
-          </div>
+        <div class="user-block-exit hidden">
+          <a class="exit-link" href="#">выход</a>
+        </div>
+        <div class="user-block-profile hidden">
+          <a class="profile-link" href="#">имя пользователя</a>
         </div>
       </div>
     </div>
@@ -50,10 +48,10 @@
         <b>прайс-лист</b>
         <ul>
           <li>
-            <a class="btn-breadcrumbs" href="#">главная</a>
+            <a class="breadcrumbs-link" href="#">главная</a>
           </li>
           <li>
-            <a class="btn-breadcrumbs">прайс-лист</a>
+            <a class="breadcrumbs-link">прайс-лист</a>
           </li>
         </ul>
       </div>
@@ -91,14 +89,18 @@
         </div>
       </div>
       <div class="layout-column-left">
-        <div class="main-content-desc">
+        <div class="main-content-description">
           <h2>несколько слов о нас:</h2>
-          <p>наша парикмахерская занимается исключительно мужскими стрижками.стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.мы не работаем на количество,мы делаем качество.</p>
+          <p>
+            наша парикмахерская занимается исключительно мужскими стрижками.стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.мы не работаем на количество,мы делаем качество.
+          </p>
         </div>
       </div>
       <div class="layout-column-right">
-        <div class="main-content-desc">
-          <p>наша мастерская расположена в центре города,поэтому сделать стильную стрижку можно в любое время,даже в обеденный перерыв.здесь вы можете погрузиться в удобную для вас атмосферу,чувствовать себя комфортно и свободно!</p>
+        <div class="main-content-description">
+          <p>
+            наша мастерская расположена в центре города,поэтому сделать стильную стрижку можно в любое время,даже в обеденный перерыв.здесь вы можете погрузиться в удобную для вас атмосферу,чувствовать себя комфортно и свободно!
+          </p>
         </div>
       </div>
     </div>
@@ -115,22 +117,22 @@
         <p>Давайте дружить!</p>
         <ul>
           <li>
-            <a class="btn-social btn-social-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           </li>
           <li>
-            <a class="btn-social btn-social-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           </li>
           <li>
-            <a class="btn-social btn-social-inst" href="#">Инстаграм</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
           </li>
           <li>
-            <a class="btn-social btn-social-# hidden" href="#"></a>
+            <a class="social-btn social-btn-# hidden" href="#"></a>
           </li>
         </ul>
       </div>
       <div class="main-footer-copyright">
         <p>Разработано:</p>
-        <a class="btn btn-copyright" href="#">HTMLACADEMY.RU</a>
+        <a class="btn btn-alternate" href="#">HTMLACADEMY.RU</a>
       </div>
     </div>
   </footer>
