@@ -1,5 +1,5 @@
 body {
-  font-family: "PTSans Narrow" , sans-serif;
+  font-family: "PTSans Narrow", "Arial", sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 24px;
@@ -7,11 +7,18 @@ body {
 }
 
 h1 {
+  font-family: "PTSans Narrow", "Arial", sans-serif;
   font-size: 30px;
+  font-weight: bold;
   line-height: 42px;
+  color: #000000;
 }
 
 h2 {
+  font-family: "PTSans Narrow", "Arial", sans-serif;
   font-size: 24px;
+  font-weight: bold;
   line-height: 30px;
+  color: #000000;
 }
+ /*зачем засорять CSS одними и теми же свойствами?насколько я помню,h1 и h2 наследуют признаки у body*/
