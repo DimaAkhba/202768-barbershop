@@ -22,3 +22,613 @@ h2 {
   color: #000000;
 }
  /*зачем засорять CSS одними и теми же свойствами?насколько я помню,h1 и h2 наследуют признаки у body*/
+
+/*сетка для catalog-price*/
+.body {
+  background-size: 1060px auto;
+}
+
+.main-header {
+  min-height: 72px;
+  margin-bottom: 54px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-shadow: 0 0 0 3px lightgreen;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float:left;
+  width: 120px;
+  min-height: 72px;
+  margin-right: 10px;
+  padding-left: 20px;
+  text-align: center; 
+  box-shadow: 0 0 0 3px blue;
+  
+}
+
+.navigation {
+  float: left;
+  width: 620px;            
+  min-height: 72px;
+  margin: 0 10px ;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.navigation li {
+  float: left;
+  width: 105px;
+  min-height: 72px;
+  margin-right: 0;
+  margin-top: -14px;
+  list-style: none;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.navigation li:nth-child(1) {
+  margin-left: -40px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height:72px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content {
+  min-height: 688px;
+  margin: 0;
+  box-shadow: 0 0 0 3px red;
+}
+
+.breadcrumbs {
+  float: left;
+  width: 940px;
+  min-height: 72px;
+  margin: 0;
+  margin-bottom: 58px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.breadcrumbs>ul>li {
+  float: left;
+  width: 100px;
+  margin: 0;
+  box-shadow: 0 0 0 3px blue;              
+}
+
+.breadcrumbs>ul>li:nth-child(1) {
+  margin-left: -40px;
+  list-style: none;
+}
+
+.main-content-slogan {
+  float: left;
+  width: 940px;
+  min-height: 35px;
+  margin: 0;
+  margin-bottom: 73px;
+  text-align: center;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.layout-column-left {
+  float: left;
+  width: 380px;
+  min-height: 450px;
+  margin: 0;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content-brands {
+  float: left;
+  width: 380px;
+  margin: 0;
+  min-height: 280px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content-description {
+  float: left;
+  width: 380px;
+  margin: 0;
+  min-height: 170px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.layout-column-right {
+  float: right;
+  width: 460px;
+  min-height: 450px;
+  margin: 0;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content-price {
+  float: right;
+  width: 460px;
+  margin: 0;
+  min-height: 280px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.layout-column-right .main-content-description {
+  float: right;
+  width: 460px;
+  margin: 0;
+  min-height: 170px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer {
+  min-height: 188px;
+  margin-top: 55px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.main-footer-contacts {
+  float: left;
+  width: 310px;
+  margin-right: 10px;
+  min-height: 188px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social {
+  float: left;
+  width: 300px;
+  margin-right: 0 10px;
+  min-height: 188px;
+  text-align: center;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social li {
+  margin: 0 10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+.main-footer-social li:nth-child(1) {
+  margin-left: 0;
+}
+
+.main-footer-social li:nth-child(3) {
+  margin-right: 0;
+}
+
+.main-footer-copyright {
+  float: right;
+  width: 300px;
+  margin-left: 10px;
+  min-height: 188px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.hidden {
+  display: none;
+}
+ 
+ /*сетка для catalog-item*/
+.body {
+  background-size: 1162px auto;
+}
+
+.main-header {
+  min-height: 72px;
+  margin-bottom: 54px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-shadow: 0 0 0 3px lightgreen;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float:left;
+  width: 120px;
+  min-height: 72px;
+  margin-right: 10px;
+  padding-left: 20px;
+  text-align: center; 
+  box-shadow: 0 0 0 3px blue;
+  
+}
+
+.navigation {
+  float: left;
+  width: 620px;            
+  min-height: 72px;
+  margin: 0 10px ;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.navigation li {
+  float: left;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.navigation li {
+  float: left;
+  width: 105px;
+  min-height: 72px;
+  margin-right: 0;
+  margin-top: -14px;
+  list-style: none;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.navigation li:nth-child(1) {
+  margin-left: -40px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height:72px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content {
+  min-height: 800px;
+  margin: 0;
+  box-shadow: 0 0 0 3px red;
+}
+
+.breadcrumbs {
+  float: left;
+  width: 940px;
+  min-height: 72px;
+  margin: 0;
+  margin-bottom: 46px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.breadcrumbs>ul>li {
+  float: left;
+  margin: 0;
+  margin-right: 25px;
+  width: auto;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.breadcrumbs>ul>li:nth-child(1) {
+  margin-left: -40px;
+  list-style: none;
+}
+
+.main-content-features {
+  float: left;
+  min-height: 670px;
+  margin: 0;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.features-picture-list {
+  float: left;
+  width: 460px;
+  min-height: 670px;
+  margin-right: 90px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.features-picture-item-big {
+  float: left;
+  min-height: 500px;
+  width: 460px;
+  margin-left: -40px;
+  margin-top: -16px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+ .features-picture-item-small{
+  float: left;
+  min-height: 150px;
+  width: 140px;
+  margin-right: 20px;
+  list-style: none;
+  box-shadow: 0 0 0 3px red;
+}
+
+.features-picture-list>ul>li:nth-child(2) {
+  margin-left: -40px;
+  box-shadow: 0 0 0 3px green;
+}
+
+.features-picture-list>ul>li:nth-child(4) {
+  margin-right: 0;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.features-order {
+  float: left;
+  width: 390px;
+  min-height: 300px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.features-concrete {
+  float: left;
+  width: 390px;
+  min-height: 450px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer {
+  min-height: 188px;
+  margin-top: 48px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.main-footer-contacts {
+  float: left;
+  width: 310px;
+  margin-right: 10px;
+  min-height: 188px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social {
+  float: left;
+  width: 300px;
+  margin-right: 0 10px;
+  min-height: 188px;
+  text-align: center;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social li {
+  margin: 0 10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+.main-footer-social li:nth-child(1) {
+  margin-left: 0;
+}
+
+.main-footer-social li:nth-child(3) {
+  margin-right: 0;
+}
+
+.main-footer-copyright {
+  float: right;
+  width: 300px;
+  margin-left: 10px;
+  min-height: 188px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.hidden {
+  display: none;
+}
+
+/*сетка для catalog*/
+.body {
+  background-size: 1173px auto;
+}
+
+.main-header {
+  min-height: 72px;
+  margin-bottom: 59px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-shadow: 0 0 0 3px lightgreen;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float:left;
+  width: 120px;
+  min-height: 72px;
+  margin-right: 10px;
+  padding-left: 20px;
+  text-align: center; 
+  box-shadow: 0 0 0 3px blue;
+}
+
+.navigation {
+  float: left;
+  width: 620px;            
+  min-height: 72px;
+  margin: 0 10px ;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.navigation li {
+  float: left;
+  width: 105px;
+  min-height: 72px;
+  margin-right: 0;
+  margin-top: -14px;
+  list-style: none;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.navigation li:nth-child(1) {
+  margin-left: -40px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  min-height:72px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-content {
+  min-height: 805px;
+  margin: 0;
+  box-shadow: 0 0 0 3px red;
+}
+
+.breadcrumbs {
+  float: left;
+  width: 940px;
+  min-height: 65px;
+  margin: 0;
+  margin-bottom: 59px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.breadcrumbs>ul>li {
+  float: left;
+  width: auto;
+  margin: 0;
+  margin-right: 25px;
+  box-shadow: 0 0 0 3px blue;               
+}                                  
+
+.breadcrumbs>ul>li:nth-child(1) {
+  margin-left: -40px;
+  list-style: none;
+}
+
+.producers-list {
+  float: left;
+  width: 220px;
+  min-height: 592px;
+  margin-right: 10px;
+  margin-bottom: 45px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.producers-list-brands {
+  float: left;
+  width: auto;
+  min-height: 310px;
+  margin-top: -5px;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.producers-list-groups {
+  float: left;
+  width: auto;
+  min-height: 216px;
+  margin-top: -5px;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+button .btn-form {
+  float: left;
+  width: auto;
+  min-height: 66px;
+  box-shadow: 0 0 0 3px cyan;
+}
+
+.product {
+  float: left;
+  width: 220px;
+  min-height: 286px;
+  margin: 0 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.product .layout-right {
+  float: right;
+  box-shadow: 0 0 0 3px red;
+}
+
+.pagination {
+  float: left;
+  min-height: 43px;
+  width: 940px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer {
+  min-height: 189px;
+  margin-top: 50px;
+  box-shadow: 0 0 0 3px red;
+}
+
+.main-footer-contacts {
+  float: left;
+  width: 310px;
+  margin-right: 10px;
+  min-height: 189px;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social {
+  float: left;
+  width: 300px;
+  margin-right: 0 10px;
+  min-height: 189px;
+  text-align: center;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.main-footer-social li {
+  margin: 0 10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+.main-footer-social li:nth-child(1) {
+  margin-left: 0;
+}
+
+.main-footer-social li:nth-child(3) {
+  margin-right: 0;
+}
+
+.main-footer-copyright {
+  float: right;
+  width: 300px;
+  margin-left: 10px;
+  min-height: 189px;
+  text-align: right;
+  box-shadow: 0 0 0 3px blue;
+}
+
+.hidden {
+  display: none;
+}
+ 
+
